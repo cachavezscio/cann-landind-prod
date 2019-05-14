@@ -1,0 +1,23 @@
+@import './../settings.scss';
+@import './../mixins.scss';
+@import './../typography.scss';
+
+
+.__contact {
+  padding: 1.25rem 1rem;
+  background: $s100;
+}
+
+.__h2 {
+    @extend .__h2;
+    font-weight: $regular;
+    color: $white;
+    text-align: center;
+    @include v-rythm(1.25rem, 2rem);
+}
+
+.__form {
+  max-width: 22.5rem;
+  width: 100%;
+  margin: 0 auto;
+}

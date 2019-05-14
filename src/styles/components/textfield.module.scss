@@ -1,0 +1,43 @@
+@import './../settings.scss';
+@import './../mixins.scss';
+@import './../typography.scss';
+
+.__bound {
+  position: relative;
+  label {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+  }
+
+}
+.__textfield {
+  appearance: none;
+  background: $white;
+  border: none;
+  height: 2.5rem;
+  padding-left: 1rem;
+  border-radius: .5rem;
+  width: 100%;
+  @include v-rythm(1rem, 1.5rem);
+  @extend .__p;
+  color: $s100;
+  font-family: $font-family;
+}
+
+.__textarea {
+  appearance: none;
+  background: $white;
+  border: none;
+  height: 10rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  width: 100%;
+  @include v-rythm(1rem, 1.5rem);
+  @extend .__p;
+  color: $s100;
+  font-family: $font-family;
+}

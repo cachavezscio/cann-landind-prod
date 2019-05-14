@@ -1,0 +1,27 @@
+@import './../settings.scss';
+@import './../mixins.scss';
+@import './../typography.scss';
+
+.__bound {
+  position: relative;
+}
+
+.__button {
+  display: block;
+  appearance: none;
+  background: $p100;
+  border: 0;
+  width: 100%;
+  @extend .__p;
+  font-family: $font-family;
+  color: $white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 3rem;
+  border-radius: 8px;
+  transition: all ease-in 150ms;
+  cursor: pointer;
+  &:hover {
+    background: #446900
+  }
+}

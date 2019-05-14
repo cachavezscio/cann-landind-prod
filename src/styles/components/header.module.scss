@@ -1,0 +1,76 @@
+@import './../settings.scss';
+@import './../mixins.scss';
+@import './../typography.scss';
+
+.__nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: $white;
+    height: 5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 0 1rem;
+    z-index: 9;
+    @include flexbox();
+    @include flex(0, 1, auto);
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+    @include align-items(center);
+}
+
+.__anchors {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.__navigator {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.__link {
+    font-family: $font-family;
+    color: $p100;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-weight: $regular;
+    @media screen and (max-width: 1000px){
+        display: none;
+    }
+}
+
+.__logo {
+    max-width: 11.25rem;
+    width: 100%;
+    display: inline-block;
+    @media screen and (max-width: 330px) {
+        max-width: 9.25rem;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.__leaf {
+    @include flexbox();
+    @include flex(0, 1, auto);
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    @include justify-content(flex-end);
+    @include align-items(center);
+
+    img {
+        max-width: 2.5rem;
+        width: 100%;
+        margin-left: .5rem;
+    }
+
+    figcaption {
+        @extend .__small;
+        text-align: right;
+        color: $s100;
+    }
+}

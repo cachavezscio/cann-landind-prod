@@ -1,0 +1,45 @@
+@import './../settings.scss';
+@import './../mixins.scss';
+@import './../typography.scss';
+
+
+.__h3 {
+    @extend .__h3;
+    color: $s100;
+    text-align: center;
+    max-width: 44rem;
+    margin: 0 auto;
+    @media screen and (min-width: 640px) {
+        text-align: left;
+    }  
+}
+
+.__h1 {
+    @extend .__h1;
+    color: $p100;
+    text-align: center;
+    @media screen and (min-width: 640px) {
+        text-align: left;
+    }
+}
+
+.__p {
+    @extend .__p;
+    color: $p100;
+    text-align: center;
+    @media screen and (min-width: 640px) {
+        text-align: left;
+    }
+}
+
+.__phone {
+    text-align: center;
+    img {
+        max-width: 15rem;
+        @media screen and (min-width: 640px) {
+            max-width: 21.25rem;
+            width: 100%;
+        }
+        width: 100%;
+    }
+}
