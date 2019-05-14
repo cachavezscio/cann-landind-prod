@@ -17,7 +17,7 @@ export const ContactUs = () => {
         <Textfield type="text" onChange={e => setName(e.target.value)} value={name} name="name" placeholder="Name" />
         <Textfield type="text" value={subject} onChange={e => setSubject(e.target.value)} name="subject" placeholder="Subject" />
         <Textarea value={body} onChange={e => { setBody(e.target.value)}} name="body" placeholder="Type your message here..." />
-        <Button href={`mailto:steffo@cannacter.com?subject=${subject} - ${name}&body=${body}`} label="Submit"/>
+        <Button href={`mailto:steffo@cannacter.com?subject=${subject} - ${name}&body=${body}`} label="Send Email"/>
       </form>
     </section>
   )
