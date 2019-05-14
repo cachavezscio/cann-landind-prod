@@ -7,6 +7,7 @@
 }
 
 .__button {
+  display: block;
   appearance: none;
   background: $p100;
   border: 0;
@@ -14,6 +15,13 @@
   @extend .__p;
   font-family: $font-family;
   color: $white;
-  height: 3rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 3rem;
   border-radius: 8px;
+  transition: all ease-in 150ms;
+  cursor: pointer;
+  &:hover {
+    background: #446900
+  }
 }

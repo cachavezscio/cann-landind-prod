@@ -4,7 +4,7 @@ import s from './../styles/components/button.module.scss'
 export const Button = (props) => {
   return (
     <section className={s.__bound}>
-      <button className={s.__button}>{props.label}</button>
+      <a href={props.href} className={s.__button}>{props.label}</a>
     </section>
   )
 }

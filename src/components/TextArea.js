@@ -5,7 +5,7 @@ export const Textarea = (props) => {
   return (
     <section className={s.__bound}>
       <label>{props.name}</label>
-      <textarea className={s.__textarea} placeholder={props.placeholder} name={props.name}></textarea>
+      <textarea onChange={props.onChange} className={s.__textarea} placeholder={props.placeholder} name={props.name}></textarea>
     </section>
   )
 }

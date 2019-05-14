@@ -5,7 +5,7 @@ export const Textfield = (props) => {
   return (
     <section className={s.__bound}>
       <label>{props.name}</label>
-      <input className={s.__textfield} type="text" placeholder={props.placeholder} name={props.name}></input>
+      <input type={props.type} onChange={props.onChange} value={props.value} className={s.__textfield}  placeholder={props.placeholder} name={props.name}></input>
     </section>
   )
 }
