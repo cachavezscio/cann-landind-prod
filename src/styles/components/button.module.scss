@@ -1,0 +1,19 @@
+@import './../settings.scss';
+@import './../mixins.scss';
+@import './../typography.scss';
+
+.__bound {
+  position: relative;
+}
+
+.__button {
+  appearance: none;
+  background: $p100;
+  border: 0;
+  width: 100%;
+  @extend .__p;
+  font-family: $font-family;
+  color: $white;
+  height: 3rem;
+  border-radius: 8px;
+}

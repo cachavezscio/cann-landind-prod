@@ -1,0 +1,30 @@
+@import './../settings.scss';
+@import './../mixins.scss';
+@import './../typography.scss';
+
+.__h1 {
+    @extend .__h1;
+    color: $p100;
+    text-align: center;
+    margin-bottom: 2rem; 
+}
+
+.__h3 {
+    @extend .__h3;
+    color: $s100;
+    text-align: center;
+    margin-bottom: 1rem; 
+}
+
+.__partner {
+    max-width: 11rem;
+    width: 100%;
+    margin: 0 auto;
+    @media screen and (min-width: 640px) {
+        max-width: 22.5rem;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}

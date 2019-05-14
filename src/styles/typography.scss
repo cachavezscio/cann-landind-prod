@@ -1,0 +1,31 @@
+@import './settings.scss';
+
+h1, h2, p, small {
+    font-family: $font-family;
+  }
+  
+  .__h1 {
+      @include fluid-type(2rem, 2.75rem);
+      @include fluid-height(2.5rem, 3.25rem);
+      font-weight: $light;
+  }
+  
+  .__h2 {
+      @include fluid-type(1.5rem, 2.375rem);
+      @include fluid-height(2rem, 2.875rem);
+  }
+
+  .__h3 {
+    @include fluid-type(1.125rem, 1.75rem);
+    @include fluid-height(1.625rem, 2.25rem);
+}
+  
+  .__p {
+      @include fluid-type(.875rem, 1rem);
+      @include fluid-height(1.5rem, 1.5rem);
+  }
+  
+  .__small {
+      @include fluid-type(.75rem, 1rem);
+      @include fluid-height(1rem, 1rem);
+  }

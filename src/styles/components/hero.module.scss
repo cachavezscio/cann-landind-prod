@@ -1,0 +1,62 @@
+@import './../settings.scss';
+@import './../mixins.scss';
+@import './../typography.scss';
+
+$bgmobile: url('./../../assets/background.jpg');
+
+.__hero {
+    background: $bgmobile center top $white;
+    background-size: cover;
+    min-height: calc(100vh - 6rem);
+    width: 100%;
+    padding: 2rem 1rem;
+    position: relative;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.__h1 {
+    @extend .__h1;
+    font-weight: $light;
+    color: $p100;
+    text-align: center;
+    @media screen and (min-width: 1000px) {
+        text-align: left;
+    }   
+}
+
+.__h2 {
+    @extend .__h2;
+    font-weight: $regular;
+    color: $s100;
+    text-align: center;
+    margin: 1rem 0;
+
+    @media screen and (min-width: 1000px) {
+        text-align: left;
+    }
+}
+
+.__phone {
+    max-width: 21.25rem!important;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.__scroll {
+    @media screen and (max-width: 540px) {
+        display: none;
+    }
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 1.625rem);
+    width: 3.75rem;
+    height: 3.75rem;
+}
