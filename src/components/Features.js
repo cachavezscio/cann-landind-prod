@@ -28,9 +28,9 @@ export const Features = () => {
                     <h3 style={{textAlign:"center"}} className={[s.__h3, '__col_xs_12'].join(' ')}>Founded by Farmers and Distributors, Cannacter levels the cannabis playing field for Buyers and Sellers in a friction-less marketplace and online auction.</h3>
                 </section>
                 <section className={'__row'}>
-                    {feature("offer", F1, "Offer-Up", "Offer-Up", "Auction")}
-                    {feature("hook",F2, "Hook-Up", "Hook-Up", "Order")}
-                    {feature("re",F3, "Re-Up", "Re-Up", "Re-Order")}
+                    {feature("offer", F3, "Offer-Up", "Offer-Up", "Auction")}
+                    {feature("hook",F1, "Hook-Up", "Hook-Up", "Order")}
+                    {feature("re",F2, "Re-Up", "Re-Up", "Re-Order")}
                 </section>
             </section>
         </section>
