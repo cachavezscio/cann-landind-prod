@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './../styles/components/hero.module.scss'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const IMAGE = require('./../assets/phone1.png')
 const ARROW = require('./../assets/arrow-down.svg')
@@ -23,9 +24,7 @@ export const Hero = () => {
                     </figure>
                 </section>
             </section>
-            <figure className={s.__scroll}>
-                <img src={ARROW} alt="Scroll down"/> 
-            </figure>
+            <AnchorLink className={s.__scroll} offset={() => 100} href='#things'><img src={ARROW} alt="Scroll down"/></AnchorLink>
             </section>
         </section>
     )

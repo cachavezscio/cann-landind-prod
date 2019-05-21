@@ -59,4 +59,8 @@ $bgmobile: url('./../../assets/background.jpg');
     left: calc(50% - 1.625rem);
     width: 3.75rem;
     height: 3.75rem;
+    transition: all ease-in 200ms;
+    &:hover {
+        transform: translateY(10%);
+    }
 }
