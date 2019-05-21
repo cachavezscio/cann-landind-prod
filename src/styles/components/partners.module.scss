@@ -19,10 +19,11 @@
 .__partner {
     max-height: 6.25rem;
     width: auto;
-    margin: 0 auto;
+    margin: 1rem auto;
     @media screen and (min-width: 640px) {
         max-width: 22.5rem;
         width: 100%;
+        margin: 0 auto;
     }
     img {
         max-height: 6.25rem;
