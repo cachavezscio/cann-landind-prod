@@ -18,7 +18,6 @@ const App = () => {
       <Header/>
       <Hero/>
       <Features/>
-      <Partners />
         <ContactUs />
         <Footer/>
     </Canvas>

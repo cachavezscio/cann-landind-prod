@@ -20,7 +20,7 @@ $bgmobile: url('./../../assets/background.jpg');
 .__h1 {
     @extend .__h1;
     font-weight: $light;
-    color: $p100;
+    color: $black;
     text-align: center;
     @media screen and (min-width: 1000px) {
         text-align: left;
@@ -30,7 +30,7 @@ $bgmobile: url('./../../assets/background.jpg');
 .__h2 {
     @extend .__h2;
     font-weight: $regular;
-    color: $s100;
+    color: $p100;
     text-align: center;
     margin: 1rem 0;
 

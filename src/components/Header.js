@@ -33,7 +33,6 @@ export const Header = () => {
                 <SmoothScroll />
                 <figure className={s.__leaf}>
                     <figcaption>{DATA.cities}</figcaption>
-                    <img src={LEAF} alt="Cannacter brand"/>
                 </figure>
             </section>
         </nav>
