@@ -7,8 +7,7 @@ import DATA from './../data.json';
 
 
 // eslint-disable-next-line no-undef
-const LOGO = require('./../assets/logo.jpg')
-const LEAF = require('./../assets/leaf.jpg')
+const LOGO = require('./../assets/logo.jpg') 
 
 const SmoothScroll = () => {
     return (

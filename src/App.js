@@ -6,7 +6,6 @@ import { Header } from './components/Header';
 import { Canvas } from './components/Canvas';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
-import { Partners } from './components/Partners';
 import { ContactUs } from './components/ContactUs';
 import { Footer } from './components/Footer';
 
