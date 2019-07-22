@@ -12,7 +12,7 @@ export const Hero = () => {
             <section className="__row middle_md">
                 <section className="__col_xs_12 __col_md_7">
                     <section className="__col_xs_12">
-                        <h1 className={s.__h1}>Fair-Market Exchange for Emerging Markets</h1>
+                        <h1 className={s.__h1}>Fair-Trade Cannabis Marketplace</h1>
                     </section>
                     <section className="__col_xs_12">
                         <h2 className={s.__h2}>Where surplus meets demand</h2>
